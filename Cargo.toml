@@ -1,0 +1,12 @@
+[package]
+name = "xcap-recording"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+env-libvpx-sys = { version = "5", features = ["generate"] }
+xcap = "0.0.10"
+webm = { git = "https://github.com/21pages/rust-webm" }
+vpx-encode = {version="0.6.2", features=["vp9"]}
+image = {version = "0.25.1"}
