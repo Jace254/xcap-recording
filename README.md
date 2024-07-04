@@ -1,4 +1,10 @@
+<div align="center">
+ 
 # XCap Recorder
+
+Records your screen for 60 seconds
+
+</div>
 
 ## Development
 
